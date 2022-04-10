@@ -48,7 +48,7 @@ func main() {
 	}
 
 	var ins instrumenter.Instrumenter
-	ins = ast.New("github.com/bigwhite/instrument_trace", "trace", "Trace")
+	ins = ast.New("github.com/arabot777/instrument_trace", "trace", "Trace")
 	newSrc, err := ins.Instrument(file)
 	if err != nil {
 		panic(err)
